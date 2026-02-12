@@ -1,3 +1,5 @@
+TOKEN = "MTM5OTkwMDUwODEwOTU0MTUyNw.GoBUu5.4cr5u8N9cj2LcI1s87YJ7TrJDoPIOGXUMc1wS4"
+
 import os
 import aiosqlite
 from datetime import datetime, date
