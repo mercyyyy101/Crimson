@@ -155,8 +155,5 @@ async def stock(interaction: discord.Interaction):
         count = (await cur.fetchone())[0]
     await interaction.response.send_message(f"{count} accounts in stock.")
 
-# ───────── START ─────────
-if not TOKEN:
-    raise RuntimeError("DISCORD TOKEN MISSING")
-
 bot.run(TOKEN)
+
